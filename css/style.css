@@ -5,10 +5,12 @@ body {
 	background-attachment: fixed;
 }
 #logo {
-	float: left;
+	width: 50%;
+	/*height: 30%;*/
+	/*float: left;
 	position: fixed;
 	top: 50px;
-	left: 30px;
+	left: 30px;*/
 }
 @media only screen and (max-width: 80.126em) { 
 	img#logo {width: 10%;}
@@ -17,8 +19,16 @@ body {
 .page {
 	min-height: 82%;
 }
-.home {
-	margin-top: 20%;
+.home1 {	
+	margin-top: 5%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	min-height: 60%;
+}
+.home2 {
+	margin-top: 0;
+	padding-top: 0;
+	min-height: 17%;
 }
 .about {
 	margin-top: 25px;

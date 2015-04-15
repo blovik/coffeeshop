@@ -1,105 +1,123 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coldbot Coffee</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coldbot Coffee</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+
+<body>
+
+  <a name="home" data-magellan-destination="home"></a> <!-- home anchor for nav -->
 
 
-  <body>
-    <img id="logo" src="img/cblogo3.png" alt="">
-    <a name="home" data-magellan-destination="home"></a>
-    <div class="row page home">
-      <div class="large-12 columns">
-        <h1>Coldbot Coffee</h1>
-        <h3>You're neighborhood coffee shop</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis placeat commodi optio repudiandae blanditiis iure, repellendus voluptas ea accusantium hic harum dolore non amet voluptatum veritatis ut minima, ad, asperiores?</p>
+<!-- First Page -->
+  <div class="row home1">
+    <div class="large-12 columns text-center">
+      <img id="logo" src="img/cblogo3.png" alt="">
+    </div>
+  </div>
+  <div class="row home2">
+    <div class="large-8 large-offset-2 columns text-center">
+      <h1>Coldbot Coffee</h1>
+      <h3>You're neighborhood coffee shop</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis placeat commodi optio repudiandae blanditiis iure.</p>
+    </div>
+    <div class="large-2 columns">
+    </div>
+  </div>
+
+<!-- Sticky Navigation -->
+  <div data-magellan-expedition="fixed">
+    <dl class="sub-nav">
+      <dd data-magellan-arrival="home"><a href="#home">Home</a></dd>
+      <dd data-magellan-arrival="about"><a href="#about">About</a></dd>
+      <dd data-magellan-arrival="types"><a href="#types">Types</a></dd>
+      <dd data-magellan-arrival="location"><a href="#location">When/Where</a></dd>
+    </dl>
+  </div>
+
+<!-- About Page -->
+  <div class="row about" data-equalizer="equal">
+    <div class="large-2 columns">
+      <img src="img/cblogo3.png" alt="">
+    </div>
+    <div class="large-4 small-12 columns">
+      <a name="about" data-magellan-destination="about"></a> <!-- About anchor for nav -->
+      <div class="transb" data-equalizer-watch="equal">
+        <h2>Our Staff</h2>
+        <ul data-orbit data-options="timer_speed:5500">
+          <li><img src="img/me/mix.jpg"></li>
+          <li><img src="img/me/cream.jpg"></li>
+          <li><img src="img/me/girl.jpg"></li>
+          <li><img src="img/me/guy.jpg"></li>
+          <li><img src="img/me/window.jpg"></li>
+      </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis iste repellat quidem laboriosam distinctio minus iure architecto quia nulla in eum, provident earum hic veniam voluptatem.</p>
       </div>
     </div>
-
-    <div data-magellan-expedition="fixed">
-      <dl class="sub-nav">
-        <dd data-magellan-arrival="home"><a href="#home">Home</a></dd>
-        <dd data-magellan-arrival="about"><a href="#about">About</a></dd>
-        <dd data-magellan-arrival="types"><a href="#types">Types</a></dd>
-        <dd data-magellan-arrival="location"><a href="#location">When/Where</a></dd>
-      </dl>
+    <div class="large-4 medium-4 small-12 columns">
+      <div class="transb" data-equalizer-watch="equal">
+        <h2>Our Customers</h2>
+        <ul data-orbit data-options="timer_speed:5000">
+          <li><img src="img/cust/group1.jpg"></li>
+          <li><img src="img/cust/girl1.jpg"></li>
+          <li><img src="img/cust/group2.jpg"></li>
+          <li><img src="img/cust/boy1.jpg"></li>
+          <li><img src="img/cust/group3.jpg"></li>
+          <li><img src="img/cust/girl2.jpg"></li>
+          <li><img src="img/cust/group4.jpg"></li>
+          <li><img src="img/cust/boy2.jpg"></li>
+          <li><img src="img/cust/group5.jpg"></li>
+          <li><h3>You!</h3><h4>Come on down!</h4><p>Have your picture taken at the coolest place in town!</p></li>
+      </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis iste repellat quidem laboriosam distinctio minus iure architecto quia nulla in eum, provident earum hic veniam voluptatem.</p>
+      </div>
+      <div class="large-1 columns">blah</div>
     </div>
-
-    <div class="row page about" data-equalizer="equal">
-      <div class="large-4 large-offset-0 medium-4 medium-offset-2 small-12 columns">
-        <a name="about" data-magellan-destination="about"></a>
-        <div class="transb" data-equalizer-watch="equal">
-          <h2>Our Staff</h2>
-          <ul data-orbit data-options="timer_speed:5500">
-            <li><img src="img/me/mix.jpg"></li>
-            <li><img src="img/me/cream.jpg"></li>
-            <li><img src="img/me/girl.jpg"></li>
-            <li><img src="img/me/guy.jpg"></li>
-            <li><img src="img/me/window.jpg"></li>
-        </ul>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis iste repellat quidem laboriosam distinctio minus iure architecto quia nulla in eum, provident earum hic veniam voluptatem.</p>
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-12 columns">
-        <div class="transb" data-equalizer-watch="equal">
-          <h2>Our Customers</h2>
-          <ul data-orbit data-options="timer_speed:5000">
-            <li><img src="img/cust/group1.jpg"></li>
-            <li><img src="img/cust/girl1.jpg"></li>
-            <li><img src="img/cust/group2.jpg"></li>
-            <li><img src="img/cust/boy1.jpg"></li>
-            <li><img src="img/cust/group3.jpg"></li>
-            <li><img src="img/cust/girl2.jpg"></li>
-            <li><img src="img/cust/group4.jpg"></li>
-            <li><img src="img/cust/boy2.jpg"></li>
-            <li><img src="img/cust/group5.jpg"></li>
-            <li><h3>You!</h3><h4>Come on down!</h4><p>Have your picture taken at the coolest place in town!</p></li>
-        </ul>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis iste repellat quidem laboriosam distinctio minus iure architecto quia nulla in eum, provident earum hic veniam voluptatem.</p>
-        </div>
-      </div>
-      <div class="large-4 small-12 columns">
-        <div class="transb" data-equalizer-watch="equal">
-          <h2>Events</h2>
-          <ul data-orbit data-options="timer_speed:6000">
-            <li><img src="img/entertainment/ent1.jpg"></li>
-            <li><img src="img/entertainment/ent2.jpg"></li>
-            <li><img src="img/entertainment/ent3.jpg"></li>
-            <li><img src="img/entertainment/ent4.jpg"></li>
-        </ul>
-          <p>Live entertainment every Friday afternoon. Many group events. Books clubs.  Bible studies. Service clubs. Make Coldbot Coffee your place to meet.</p>
-        </div>
+  </div>
+  <div class="row">
+    <div class="large-10 large-offset-2 small-12 columns">
+      <div class="transb">
+        <h2>Events</h2>
+        <ul data-orbit data-options="timer_speed:6000">
+          <li><img src="img/entertainment/ent1.jpg"></li>
+          <li><img src="img/entertainment/ent2.jpg"></li>
+          <li><img src="img/entertainment/ent3.jpg"></li>
+          <li><img src="img/entertainment/ent4.jpg"></li>
+      </ul>
+        <p>Live entertainment every Friday afternoon. Many group events. Books clubs.  Bible studies. Service clubs. Make Coldbot Coffee your place to meet.</p>
       </div>
     </div>
+  </div>
 
-    <div class="row page types">
-      <a name="types" data-magellan-destination="types"></a>
-      <ul class="large-block-grid-3 text-center">
-        <li><img src="img/cup1.jpeg" alt=""></li>
-        <li><img src="img/cup2.jpeg" alt=""></li>
-        <li><img src="img/cup3.jpeg" alt=""></li>
-        <li><img src="img/cup4.jpeg" alt=""></li>
-        <li><img src="img/cup5.jpeg" alt=""></li>
-        <li><img src="img/cup6.jpeg" alt=""></li>
-      </ul>  
-      </div>
+<!-- Types Page -->
+  <div class="row page types">
+    <a name="types" data-magellan-destination="types"></a> <!-- Type anchor for nav -->
+    <ul class="large-block-grid-3 text-center">
+      <li><img src="img/cup1.jpeg" alt=""></li>
+      <li><img src="img/cup2.jpeg" alt=""></li>
+      <li><img src="img/cup3.jpeg" alt=""></li>
+      <li><img src="img/cup4.jpeg" alt=""></li>
+      <li><img src="img/cup5.jpeg" alt=""></li>
+      <li><img src="img/cup6.jpeg" alt=""></li>
+    </ul>  
     </div>
+  </div>
 
-    <div class="row location">
-      <a name="location"></a>
-      <h3 data-magellan-destination="location">Location</h3>
-    </div>
+<!-- Location Page -->
+  <div class="row location">
+    <a name="location" data-magellan-destination="location"></a> <!-- Location anchor for nav -->
+  </div>
 
-    
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+  
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
 </html>
