@@ -1,0 +1,41 @@
+body {
+	background-image: url("../img/coffee-bean-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+#logo {
+	/*float: left;*/
+	position: fixed;
+	margin: 0px 0 0 20px;
+}
+.page {
+	min-height: 92%;
+}
+.home {
+	margin-top: 20%;
+}
+.about {
+	min-height: 100%;
+	background-color: black;
+	opacity: .5;
+	color: white;
+}
+.about h2 {
+	color: white;
+}
+.types {
+	min-height: 100%;
+	background-color: white;
+}
+.location {
+	min-height: 100%;
+	background-color: black;
+	color: white;
+}
+.location h2 {
+	color: white;
+}
+.subnav {
+	background-color: red;
+}
