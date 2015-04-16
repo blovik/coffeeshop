@@ -63,9 +63,15 @@ ul#thinner {
 	background-size: cover;
 	/*color: white;*/
 }
-
 .map {
-	height: 100%;
+	margin-top: 40px;
+	height: 300px;
+	padding: 50px 0;
+}
+.map2 {
+	background-color: white;
+	opacity: .7;
+	border-radius: 20px;
 }
 .subnav {
 	background-color: red;
