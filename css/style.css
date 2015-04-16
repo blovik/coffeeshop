@@ -39,18 +39,24 @@ body {
 }
 .transb {
 	background-color: black;
-	opacity: .5;
+	opacity: .7;
 	padding: 0 15px 10px 15px;
 	border-radius: 20px;
 }
-
+ul#thinner {
+	width: 60%;
+}
 .about h2 {
 	color: white;
 }
 .types {
 	min-height: 100%;
-	background-color: white;
-	opacity: .5;
+	margin-top: 30px;
+	/*background-color: white;
+	opacity: .2;*/
+}
+.panel {
+	background-color: grey;
 }
 .location {
 	min-height: 100%;
