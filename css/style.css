@@ -59,10 +59,15 @@ ul#thinner {
 	min-height: 100%;
 	background-image: url("../img/Fresno.jpg");
 	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 }
 .location h2 {
 	color: white;
+}
+.map {
+	height: 100%;
 }
 .subnav {
 	background-color: red;
