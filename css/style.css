@@ -35,39 +35,40 @@ h1 h2 h3 h4 h5 h6 p {
 }
 .about>div {
 	min-height: 100%;
-	color: white;
+	color: #ffffff;
 }
 .transb {
-	background-color: black;
+	background-color: #000000;
 	opacity: .7;
 	padding: 0 15px 10px 15px;
 	border-radius: 20px;
-	color: white;
+	color: #ffffff;
 }
 .transb h2 {
-	color: white;
-	text-shadow: 1px 1px 9px black;
+	color: #ffffff;
+	text-shadow: 1px 1px 9px #000000;
 }
 ul#thinner {
 	width: 60%;
 }
 .about h2 {
-	color: white;
+	color: #ffffff;
 }
 
 /*======================================
 ============types section==============*/
 .types {
 	margin-top: 30px;
-	background-color: white;
+	background-color: #ffffff;
 	opacity: .9;
 	border-radius: 20px;
 }
 .view img {
     height: 100%;
 }
-img .center {
-    text-align: center;
+.img-center {
+    margin-left: auto;
+    margin-right: auto;
 }
 /*buttons have their own section below*/
 
@@ -76,10 +77,10 @@ img .center {
 .location {
 	min-height: 100%;
 	background-image: url("../img/Fresno.jpg");
-	background-color: black;
+	background-color: #000000;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*color: white;*/
+	/*color: #ffffff;*/
 }
 .map {
 	margin-top: 40px;
@@ -87,12 +88,12 @@ img .center {
 	padding: 50px 0;
 }
 .map2 {
-	background-color: black;
+	background-color: #000000;
 	opacity: .7;
 	border-radius: 20px;
 }
 .map2 p, h3, h5 {
-	color: white;
+	color: #ffffff;
 }
 .subnav {
 	background-color: red;
