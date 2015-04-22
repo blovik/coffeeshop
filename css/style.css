@@ -4,8 +4,10 @@ body {
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	font-family: 'Poiret One', cursive;
+    padding: 0pt;
+    margin: 0pt;
 }
-h1 h2 h3 h4 h5 h6 p {
+h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Poiret One', cursive;
 }
 #logo {
@@ -14,6 +16,7 @@ h1 h2 h3 h4 h5 h6 p {
 .page {
 	min-height: 82%;
 }
+
 /*======================================
 =============home section==============*/
 .home1 {	
@@ -26,6 +29,18 @@ h1 h2 h3 h4 h5 h6 p {
 	margin-top: 0;
 	padding-top: 0;
 	min-height: 17%;
+}
+.drop {
+    float: left;
+    position: fixed;
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    margin-top: 0;
+    z-index: 500;   
+}
+.sub-nav dd {
+    font-family: 'Poiret One', cursive;
 }
 
 /*======================================
@@ -100,6 +115,12 @@ ul#thinner {
 }
 
 /*================================
+=============Footer==============*/
+footer {
+    background-color: #ffffff;
+}
+
+/*================================
 ==========Types Buttons==========*/
 .view {
     width: 300px;
@@ -111,9 +132,9 @@ ul#thinner {
     position: relative;
     text-align: center;
     cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
+    background: #fff url(../images/bgimg.jpg) no-repeat center center;
 }
-.view .mask, .view .content {
+.mask, .content {
     width: 300px;
     height: 200px;
     position: absolute;
@@ -131,7 +152,7 @@ ul#thinner {
     text-align: center;
     position: relative;
     font-size: 17px;
-    padding: 10px;
+    padding: 10px 20px 0px 0px;
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0
 }
@@ -141,13 +162,13 @@ ul#thinner {
     font-size: 12px;
     position: relative;
     color: #fff;
-    padding: 10px 20px 20px;
+    padding: 10px 25px 20px 5px;
     text-align: center
 }
 .view a.info {
     display: inline-block;
     text-decoration: none;
-    padding: 7px 14px;
+    padding: 7px 14px 7px 0px;
     background: #000;
     color: #fff;
     text-transform: uppercase;
@@ -199,17 +220,22 @@ ul#thinner {
     opacity: 1;
 }
 
-
 /*======================================
 =============== @ media ===============*/
 
-/*@media only screen and (max-width: 40em) { 
-    .img {
-        height: 100%;
+@media only screen and (max-width: 40em) { 
+    #logo {
+    width: 100%;
     }
-}*/
-
-
-
-
+}
+@media only screen and (min-width: 40.063em) { 
+    #logo {
+    width: 75%;
+    }
+}
+@media only screen and (min-width: 64.063em) { 
+    #logo {
+    width: 60%;
+    }
+}
 
